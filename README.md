@@ -1,2 +1,2 @@
 # pragmatic-dict
-Dictionary is one of our most used guides 'n our lives.
+Dictionary is one of our most used guides in our lives.
