@@ -1,0 +1,26 @@
+Word : Car
+Origin : English
+Definition : a road vehicle with an engine, four wheels, and seats for a small number of people
+-
+
+Word : love
+Origin : English
+Definition : to like something very much
+-
+
+Word : computer
+Origin : English
+Definition : an electronic device that can store large amounts of 
+information and be given sets of instructions to organize and change it very quickly
+-
+
+Word : software
+Origin : English
+Definition : the instructions that control what a computer does; computer programs
+-
+
+Word : education
+Origin : English
+Definition : the process of teaching or learning, especially in a school or
+college, or the knowledge that you get from this
+-
