@@ -14,7 +14,7 @@ Essential::Essential()
         exit(-1); // escape statement to exit
     }
 
-    setWindow(SDL_CreateWindow("Pragmatic Dictionary",
+    setWindow(SDL_CreateWindow("Quick Dictionary",
                         SDL_WINDOWPOS_CENTERED,
                         SDL_WINDOWPOS_CENTERED,
                         WINDOW_WIDTH,
