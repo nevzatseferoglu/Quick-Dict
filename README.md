@@ -1,5 +1,4 @@
 <h2><b>Quick Dictionary</b></h2>
-<hr \>
 
 <ul type="square">
     <li style="font-family: monospace; font-size: large;">
