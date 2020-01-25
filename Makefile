@@ -17,7 +17,7 @@ SRCS := src/main.cpp src/SDL_Dictionary.cpp src/Essential.cpp src/Dictionary/Def
 OBJS := $(SRCS:.cpp=.o)
 
 # name of executable
-EXEC := pragma-dict
+EXEC := quick-dict
 
 # default recipe
 all: $(EXEC)
