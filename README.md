@@ -16,4 +16,4 @@
     __Official Wepsite__ : [Simple Direct Media Layer](https://www.libsdl.org/)
 
 * ## Sample Display
-    <img src="quick-display.gif" width="500" height="350" />
+![](quick-display.gif)
