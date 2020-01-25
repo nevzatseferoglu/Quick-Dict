@@ -16,4 +16,4 @@
     __Official Wepsite__ : [Simple Direct Media Layer](https://www.libsdl.org/)
 
 * ## Sample Display
-![](https://media.giphy.com/media/l1b20BNxRoGKaYzYSY/giphy.gif)
+<img src="https://media.giphy.com/media/l1b20BNxRoGKaYzYSY/giphy.gif" width="40" height="40" /
