@@ -5,7 +5,7 @@
 CC := g++ 
 
 # set the compiler flags
-CFLAGS := `sdl2-config --libs --cflags` -ggdb3 -O0 --std=c99 -Wall -lSDL2_image -lSDL2_mixer -lSDL2_ttf -lm 
+CFLAGS := `sdl2-config --libs --cflags` -ggdb3 -O0 --std=c99 -Wall -lSDL2_ttf -lm 
 
 # add header files here
 HDRS := src/SDL_Dictionary.h src/Essential.h src/Dictionary/Definition.h src/Dictionary/Dictionary.h src/Dictionary/Origin.h src/Dictionary/Member.h src/Dictionary/Word.h
