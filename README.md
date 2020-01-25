@@ -16,4 +16,4 @@
     __Official Wepsite__ : [Simple Direct Media Layer](https://www.libsdl.org/)
 
 * ## Sample Display
-<img src="https://github.com/nevzatseferoglu/Quick-Dict/blob/master/quick-dict.gif" />
+<img src="https://media.giphy.com/media/fAc61Dlv0KbXDEBZe9/giphy.gif" />
