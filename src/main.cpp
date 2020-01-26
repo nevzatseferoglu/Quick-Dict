@@ -1,4 +1,5 @@
 #include <iostream>
+#include <random>
 
 #include "common.h"
 #include "SDL_Dictionary.h"
@@ -14,6 +15,7 @@ void loadMedia(SDL_Dictionary& Dict , const Essential& Tools);
 
 int main(int argc , const char* argv[])
 {
+
     Essential Tools;
     SDL_Dictionary Dictionary;
 
@@ -21,6 +23,10 @@ int main(int argc , const char* argv[])
     bool flag = false;
 
     loadMedia(Dictionary,Tools);
+
+    random_device dev;
+    mt19937 rng(dev());
+    uniform_int_distribution<mt19937::result_type> dist_DictionarySize(0,Dictionary.game_dict.size() - 1)   ;
 
     while( !quit )
     {
@@ -51,14 +57,9 @@ int main(int argc , const char* argv[])
         SDL_RenderPresent( Tools.getRenderer() );
 
         if( flag == true )
-        {
-            if( i == Dictionary.game_dict.size() -1 )
-                i = 0;
-            else
-                ++i;
-        }
+            i = dist_DictionarySize(rng);
 
-        SDL_Delay(50);
+        SDL_Delay(75);
     }
 
     Dictionary.close_TTF();
