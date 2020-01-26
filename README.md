@@ -17,3 +17,13 @@
 
 * ## Sample Display
 <img src="https://media.giphy.com/media/l1b20BNxRoGKaYzYSY/giphy.gif" width="650" height="300" />
+
+* ## How To Test 
+
+    **Warning** : There is no compiled library in this program.If you want to test it , please follow the steps that are below.
+    
+    1. Download current version of the SDL from **[here](https://www.libsdl.org/download-2.0.php)**. 
+    2. Do not forget that there is one additional library.
+       - [SDL_ttf 2.0](https://www.libsdl.org/projects/SDL_ttf/)
+    3. You can  just use and customize **makefile** at yours sweet will.
+    4. You can stop or resume the word-flow by the pressing the any button on the keyboard.
