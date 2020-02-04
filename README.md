@@ -13,7 +13,7 @@
 
     SDL is written in C, works natively with C++, and there are [bindings available](https://www.libsdl.org/languages.php) for several other languages, including C# and Python. 
 
-    __Official Wepsite__ : [Simple Direct Media Layer](https://www.libsdl.org/)
+    __Official Wepsite__ : [Simple DirectMedia Layer](https://www.libsdl.org/)
 
 * ## Sample Display
 <img src="https://media.giphy.com/media/l1b20BNxRoGKaYzYSY/giphy.gif" width="650" height="300" />
