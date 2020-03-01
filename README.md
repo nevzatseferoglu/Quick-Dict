@@ -7,7 +7,7 @@
 
     There are so many graphical library compatible with C and C++ languages. In this project , I choosed **[SDL](https://www.libsdl.org/)** which supply an advanced control over the graphical and IO controlling issues which are effective for the user part of the program.
 
-* ## SDL - Simple Direct Media Layer 
+* ## SDL - Simple DirectMedia Layer 
 
     Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
 
