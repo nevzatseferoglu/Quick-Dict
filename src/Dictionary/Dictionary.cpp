@@ -221,9 +221,31 @@ namespace Dictionarys
 
     void Dictionary::remove_word(const string& word)
     {
+        int index = is_in_dictionary(word);
 
+        if( index != -1 )
+        {
+            for( int i = index ; i < size() ; ++i )
+                Phase[i] = Phase[i+1];
+            --used;
+        }
+        else
+        {
+            cout << " Removing word was not completed successfully! \n" << endl;
+        }
     }
     
+    int Dictionary::is_in_dictionary( const string& word )
+    {
+        int index = -1;
+
+        for( int i = 0 ; i < size() ; ++ i)
+            if( word == Phase[i].get_word() )
+                index = i;
+        
+        return ( index );
+    }
+
     void Dictionary::release_dictionary()
     {
         if(Phase == nullptr)

@@ -38,6 +38,7 @@ namespace Dictionarys
             void printDictionary() const;
 
         private:
+            int is_in_dictionary( const string& word );
             Members::Member* Phase;
             int capacity;
             int used;
