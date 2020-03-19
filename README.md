@@ -16,7 +16,7 @@
     __Official Wepsite__ : [Simple DirectMedia Layer](https://www.libsdl.org/)
 
 * ## Sample Display
-<img src="https://media.giphy.com/media/l1b20BNxRoGKaYzYSY/giphy.gif" width="650" height="300" />
+<img src="README-media/quickDick.gif" width="640">
 
 * ## How To Test 
 
